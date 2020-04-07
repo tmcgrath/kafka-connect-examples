@@ -6,4 +6,6 @@ Repo of various Kafka Connect examples.  The accompanying tutorials and screenca
 
 [Kafka Connect mySQL Examples](https://supergloo.com/kafka-connect/kafka-connect-mysql-example/)
 
-[Kafka Connect S3 Examples]( https://supergloo.com/kafka-connect/kafka-connect-s3-examples/)
+[Kafka Connect S3 Examples](https://supergloo.com/kafka-connect/kafka-connect-s3-examples/)
+
+[Kafka Test Data Generation](https://supergloo.com/kafka/kafka-test-data/)
