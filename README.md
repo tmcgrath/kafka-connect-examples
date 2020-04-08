@@ -9,3 +9,5 @@ Repo of various Kafka Connect examples.  The accompanying tutorials and screenca
 [Kafka Connect S3 Examples](https://supergloo.com/kafka-connect/kafka-connect-s3-examples/)
 
 [Kafka Test Data Generation](https://supergloo.com/kafka/kafka-test-data/)
+
+[GCP Kafka Examples with Google Cloud Storage (GCS)](https://supergloo.com/kafka-connect/gcp-kafka-connect-gcs-examples/)
