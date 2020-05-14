@@ -13,3 +13,7 @@ Repo of various Kafka Connect examples.  The accompanying tutorials and screenca
 [GCP Kafka Examples with Google Cloud Storage (GCS)](https://supergloo.com/kafka-connect/gcp-kafka-connect-gcs-examples/)
 
 [Azure Kafka Examples with Azure Blob Storage](https://supergloo.com/kafka-connect/azure-kafka-blob-storage/)
+
+# Kafka Connect Running Modes
+
+Most of these tutorials above can be adjusted to run in either Standalone or Distributed mode.  More these [Kafka Connect Modes here](https://supergloo.com/kafka-connect/running-kafka-connect-standalone-vs-distributed-mode-examples/)
