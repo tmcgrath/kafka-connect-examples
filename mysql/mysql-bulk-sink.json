@@ -1,0 +1,12 @@
+{
+  "name": "mysql-bulk-sink",
+  "config": {
+    "connector.class":"io.confluent.connect.jdbc.JdbcSinkConnector",
+    "tasks.max":"3",
+    "connection.url":"jdbc:mysql://localhost/employeesink",
+    "connection.user":"ss",
+    "connection.password":"ss",
+    "auto.create":"true",
+    "topics.regex":"^mysql-.*"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "mysql-bulk-source",
+  "config": {
+    "connector.class":"io.confluent.connect.jdbc.JdbcSourceConnector",
+    "tasks.max":"10",
+    "connection.url":"jdbc:mysql://localhost/employees",
+    "connection.user":"ss",
+    "connection.password":"ss",
+    "mode":"bulk",
+    "topic.prefix":"mysql-"
+  }
+}

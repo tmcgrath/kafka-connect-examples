@@ -1,0 +1,19 @@
+{
+  "name": "s3-source",
+  "config": {
+    "connector.class":"io.confluent.connect.s3.source.S3SourceConnector",
+    "tasks.max":"1",
+    "s3.region":"us-east-1",
+    "s3.bucket.name":"kafka-connect-example",
+    "format.class":"io.confluent.connect.s3.format.avro.AvroFormat",
+    "partitioner.class":"io.confluent.connect.storage.partitioner.DefaultPartitioner",
+    "schema.compatibility":"NONE",
+    "transforms":"AddPrefix",
+    "transforms.AddPrefix.type":"org.apache.kafka.connect.transforms.RegexRouter",
+    "transforms.AddPrefix.regex":".*",
+    "transforms.AddPrefix.replacement":"copy_of_$0",
+    "confluent.license":"",
+    "confluent.topic.bootstrap.servers":"localhost:9092",
+    "confluent.topic.replication.factor":"1"
+  }
+}
