@@ -1,5 +1,5 @@
 {
-  "name": "dvoluble",
+  "name": "voluble",
   "config": {
     "connector.class": "io.mdrogalis.voluble.VolubleSourceConnector",
     "genkp.owners.with": "#{Internet.uuid}",
