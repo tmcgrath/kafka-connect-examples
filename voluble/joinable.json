@@ -1,0 +1,19 @@
+{
+  "name": "joinable",
+  "config": {
+    "connector.class": "io.mdrogalis.voluble.VolubleSourceConnector",
+
+    "genkp.inventory.with": "#{Code.asin}",
+    "genv.inventory.amount_in_stock.with": "#{number.number_between '5','15'}",
+
+    "genk.order.matching": "inventory.key",
+    "genv.order.quantity.with": "#{number.number_between '1','5'}",
+    "genv.order.customer_id.with": "#{number.number_between '25','55'}",
+
+    "genkp.customer.with": "#{number.number_between '25','55'}",
+    "genv.customer.name.with": "#{Food.vegetables}",
+
+    "global.throttle.ms": "1000",
+    "global.history.records.max": "100"
+  }
+}
